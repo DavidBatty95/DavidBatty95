@@ -1,7 +1,9 @@
 # Profile assets
 
-- `profile-banner.svg`: original static vector artwork for this profile. The map
-  and sensing graphic is a schematic, not experimental data.
+- `profile-banner.svg`: prominent vector introduction with David's role,
+  qualifications, four project areas and a skills strip identifying ROS 1 Noetic
+  and ROS 2 Humble. The map and sensing motif is a schematic, not experimental data.
+- `nav-*.svg`: locally hosted section-navigation buttons with accessible labels.
 - `geoff-sim.gif`: resized recorded G1 pedestrian-plaza simulation from Geoff-Sim.
 - `dougie-sim.gif`: resized recorded torque-driven Go2 walking simulation from
   Dougie-Sim. This is a walking preview, not a radiation-mapping mission recording.
@@ -23,7 +25,7 @@ python3 scripts/prepare_media.py
 Profile research references were checked against the Liverpool thesis record
 (DOI `10.17638/03199094`) and Crossref publication metadata in October 2026.
 
-## Sony postdoctoral research card
+## EmotiBit postdoctoral research card
 
 `sony-emotibit-research.svg` is original schematic artwork for the profile.
 Its illustrative waveforms are not experimental results. No participant records,

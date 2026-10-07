@@ -1,14 +1,21 @@
+<a id="top"></a>
+
 <div align="center">
-  <img src="assets/profile-banner.svg" width="100%" alt="Dr David Batty MEng MIET — Robotics, autonomy and intelligent systems. From radiation-aware exploration to human-aware robots.">
+  <img src="assets/profile-banner.svg" width="100%" alt="Meet Dr David Batty — robotics researcher and AI &amp; Cyberphysical Systems Engineer. Geoff-Sim and Dougie-Sim, radiation-aware PhD research, EmotiBit Immersion Measurement, Pepper and freelance web development. Toolkit: ROS 1 Noetic, ROS 2 Humble, Python, Docker, Linux, MuJoCo, Gazebo, RViz, SLAM and Gaussian processes.">
 
   <p><strong>AI &amp; Cyberphysical Systems Engineer · Robotics Researcher · PhD, University of Liverpool</strong></p>
   <p>Virtual Engineering Centre · University of Liverpool · United Kingdom</p>
 
   <p>
+    <a href="#current-research"><img src="assets/nav-current-research.svg" width="205" height="48" alt="Current Research"></a>
+    <a href="#phd-research"><img src="assets/nav-phd-research.svg" width="205" height="48" alt="PhD Research"></a>
+    <a href="#web-development"><img src="assets/nav-web-development.svg" width="205" height="48" alt="Web Development"></a>
+    <a href="#other-projects"><img src="assets/nav-other-projects.svg" width="205" height="48" alt="Other Projects"></a>
+  </p>
+
+  <p>
     <a href="https://livrepository.liverpool.ac.uk/3199094/">PhD thesis</a> &nbsp; / &nbsp;
     <a href="#selected-publications">Publications</a> &nbsp; / &nbsp;
-    <a href="#postdoctoral-research">Sony research</a> &nbsp; / &nbsp;
-    <a href="#freelance-web-development">Web development</a> &nbsp; / &nbsp;
     <a href="https://orcid.org/0009-0003-5375-421X">ORCID</a> &nbsp; / &nbsp;
     <a href="https://uk.linkedin.com/in/david-batty">LinkedIn</a> &nbsp; / &nbsp;
     <a href="mailto:dwbatty@liverpool.ac.uk">Contact</a>
@@ -23,7 +30,13 @@ My research brings together **compact map representations, probabilistic environ
 
 Alongside robotics, I have undertaken **postdoctoral physiological-data research for Sony Europe and Japan**, and I also do **freelance web development** for local groups and organisations.
 
-## Featured robotics projects
+---
+
+## Current Research
+
+Robotic autonomy, radiation-aware exploration and physiological-data tools supporting ongoing research.
+
+### Robotics and autonomous systems
 
 <table>
   <tr>
@@ -48,19 +61,9 @@ Alongside robotics, I have undertaken **postdoctoral physiological-data research
 
 <sub>Recorded simulation previews from separate runs; project documentation contains the evaluation results. Geoff-Sim and Dougie-Sim are currently private repositories: source links require access. <a href="mailto:dwbatty@liverpool.ac.uk">Contact me about the projects.</a></sub>
 
-### [Pepper-Assistant](https://github.com/DavidBatty95/pepper_assistant)
+### EmotiBit Immersion Measurement
 
-**Conversational robotics for the Virtual Engineering Centre.** A voice-driven assistant for SoftBank Pepper, designed for demonstrations, tours and visitor Q&A. The system connects wake-word activation, voice activity detection, Vosk speech recognition, GPT-powered dialogue and a Pepper-side speech bridge, with a live terminal dashboard.
-
-`Human–robot interaction` · `Python` · `Speech recognition` · `Conversational AI`
-
-**[Explore Pepper-Assistant →](https://github.com/DavidBatty95/pepper_assistant)**
-
-## Postdoctoral research
-
-### Sony Europe and Japan — EmotiBit physiological-data analysis
-
-[![Sony Europe and Japan postdoctoral research: EmotiBit physiological-data analysis, illustrated with schematic signal traces](assets/sony-emotibit-research.svg)](https://github.com/DavidBatty95/SonyEmotiBitAnalysis)
+[![EmotiBit Immersion Measurement — postdoctoral research, with a supporting credit to Sony Europe and Japan and schematic signal traces](assets/sony-emotibit-research.svg)](https://github.com/DavidBatty95/SonyEmotiBitAnalysis)
 
 I developed this work during my **PostDoc for Sony Europe and Japan**. It supports
 the inspection of EmotiBit physiological recordings through a Python workflow
@@ -75,7 +78,11 @@ research group.**
 
 <sub>The source repository is private and requires access. The illustration above is a schematic, not participant data. <a href="mailto:dwbatty@liverpool.ac.uk">Contact me about the research.</a></sub>
 
-## PhD research
+[↑ Back to top](#top)
+
+---
+
+## PhD Research
 
 > ### Radiation Aware Navigation and Planning for Mobile Robot Exploration of Unknown Hazardous Nuclear Environments
 > **David Batty · PhD thesis · University of Liverpool · 2026**
@@ -99,7 +106,7 @@ The thesis connects four research contributions:
 | [Radiation-aware framework · ROS 1](https://github.com/DavidBatty95/OccMapAbstractionROS1Pkg) | Simulation testing of the radiation-aware abstraction framework |
 | [Go2 experimental workspace · ROS 2](https://github.com/DavidBatty95/Go2OccMapAbstractionROS2ws) | Real-world testing of radiation-aware exploration on the Unitree Go2 |
 
-## Selected publications
+### Selected publications
 
 **Real-World Testing of Ultrasonic Beacons for Mobile Robot Radiation Emulation**<br>
 David Batty, Andrew West, Ipek Caliskanelli and Paolo Paoletti.<br>
@@ -111,7 +118,11 @@ David Batty, Lupo Manes, Andrew West, Maulik Patel, Ipek Caliskanelli and Paolo 
 *Towards Autonomous Robotic Systems — TAROS 2023*, pp. 77–88. Springer, 2023.<br>
 [Read publication →](https://doi.org/10.1007/978-3-031-43360-3_7)
 
-## Freelance web development
+[↑ Back to top](#top)
+
+---
+
+## Web Development
 
 I also build **responsive websites for local groups and organisations**, bringing
 the same attention to clear interfaces and practical delivery to my freelance
@@ -140,6 +151,26 @@ together in a clear desktop and mobile experience.
 
 **[Visit the live website →](https://aardvarkesuwebsite.onrender.com/)** &nbsp; · &nbsp;
 **[Discuss a website project →](mailto:dwbatty@liverpool.ac.uk)**
+
+[↑ Back to top](#top)
+
+---
+
+## Other Projects
+
+Applied robotics and interactive systems for demonstrations and public engagement.
+
+### [Pepper-Assistant](https://github.com/DavidBatty95/pepper_assistant)
+
+**Conversational robotics for the Virtual Engineering Centre.** A voice-driven assistant for SoftBank Pepper, designed for demonstrations, tours and visitor Q&A. The system connects wake-word activation, voice activity detection, Vosk speech recognition, GPT-powered dialogue and a Pepper-side speech bridge, with a live terminal dashboard.
+
+`Human–robot interaction` · `Python` · `Speech recognition` · `Conversational AI`
+
+**[Explore Pepper-Assistant →](https://github.com/DavidBatty95/pepper_assistant)**
+
+[↑ Back to top](#top)
+
+---
 
 ## Technical focus
 

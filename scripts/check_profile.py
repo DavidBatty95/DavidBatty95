@@ -15,11 +15,14 @@ class Links(HTMLParser):
     def __init__(self):
         super().__init__()
         self.targets = []
+        self.anchors = set()
 
     def handle_starttag(self, tag, attrs):
         for name, value in attrs:
             if name in ('src', 'href') and value:
                 self.targets.append(value)
+            if name == 'id' or (tag == 'a' and name == 'name'):
+                self.anchors.add(value)
 
 
 def main():
@@ -39,6 +42,9 @@ def main():
             elif fragment and resolved.suffix == '.md':
                 headings = re.findall(r'^#+\s+(.+)$', resolved.read_text(), re.M)
                 slugs = {re.sub(r'[^\w\- ]', '', h.lower()).replace(' ', '-') for h in headings}
+                anchors = Links()
+                anchors.feed(resolved.read_text())
+                slugs.update(anchors.anchors)
                 if fragment not in slugs:
                     errors.append(f'{path.name}: missing anchor {target}')
     for path in (ROOT/'assets').glob('*.svg'):

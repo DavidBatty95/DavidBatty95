@@ -1,38 +1,76 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
-  <title id="title">Dr David Batty MEng MIET — Robotics, autonomy and intelligent systems</title>
-  <desc id="desc">Navy and teal engineering banner with a stylised occupancy map, connected planning nodes and sensing rings.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="740" viewBox="0 0 1280 740" role="img" aria-labelledby="title desc">
+  <title id="title">Meet Dr David Batty — robotics researcher and AI &amp; Cyberphysical Systems Engineer</title>
+  <desc id="desc">PhD, MEng, MIET. Virtual Engineering Centre, University of Liverpool. Work spans Geoff-Sim and Dougie-Sim robotics, radiation-aware exploration and mapping, EmotiBit immersion measurement, Pepper conversational robotics and freelance web development. Skills include ROS 1 Noetic, ROS 2 Humble, Python, MuJoCo, Gazebo, RViz, SLAM, navigation, Gaussian processes, pandas, Matplotlib, Docker, Linux and Git. Graphics are illustrative.</desc>
   <defs>
-    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#0b1424"/><stop offset="1" stop-color="#152c40"/></linearGradient>
-    <linearGradient id="accent"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#60a5fa"/></linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8bafc5" stroke-opacity=".09"/></pattern>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#0b1424"/><stop offset="1" stop-color="#163247"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#80bfff"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#9fbcd0" stroke-opacity=".06"/></pattern>
   </defs>
-  <rect width="1280" height="360" rx="18" fill="url(#background)"/>
-  <rect width="1280" height="360" rx="18" fill="url(#grid)"/>
-  <rect x="48" y="52" width="48" height="4" rx="2" fill="url(#accent)"/>
+  <rect width="1280" height="740" rx="24" fill="url(#background)"/>
+  <rect width="1280" height="740" rx="24" fill="url(#grid)"/>
+  <rect x="44" y="36" width="64" height="5" rx="2.5" fill="url(#accent)"/>
+
+  <!-- Identity and an abstract sensing / planning motif. -->
   <g font-family="Arial, Helvetica, sans-serif">
-    <text x="48" y="94" fill="#5eead4" font-size="15" font-weight="700" letter-spacing="3">ROBOTICS / AUTONOMY / INTELLIGENT SYSTEMS</text>
-    <text x="44" y="177" fill="#f1f5f9" font-size="64" font-weight="700" letter-spacing="-2">Dr David Batty<tspan dx="18" fill="#5eead4" font-size="28" font-weight="400" letter-spacing="0">MEng MIET</tspan></text>
-    <text x="48" y="226" fill="#cbd5e1" font-size="23">From radiation-aware exploration</text>
-    <text x="48" y="259" fill="#cbd5e1" font-size="23">to human-aware robots.</text>
-    <text x="48" y="316" fill="#91a9bd" font-size="15" letter-spacing="1.5">RESEARCH  ·  SIMULATION  ·  REAL-WORLD SYSTEMS</text>
+    <text x="44" y="76" fill="#5eead4" font-size="19" font-weight="700" letter-spacing="2">RESEARCHER / ENGINEER / BUILDER</text>
+    <text x="40" y="150" fill="#f1f5f9" font-size="66" font-weight="700" letter-spacing="-2">Dr David Batty</text>
+    <text x="47" y="187" fill="#b8cbdc" font-size="22">PhD · MEng · MIET</text>
+    <text x="44" y="230" fill="#f1f5f9" font-size="25" font-weight="700">AI &amp; Cyberphysical Systems Engineer · Robotics Researcher</text>
+    <text x="44" y="263" fill="#b8cbdc" font-size="20">Virtual Engineering Centre · University of Liverpool</text>
   </g>
-  <g transform="translate(990 178)">
-    <g fill="none" stroke="#5eead4">
-      <circle r="132" opacity=".12"/><circle r="96" opacity=".2"/><circle r="60" opacity=".3"/>
-      <path d="M-155 0H155M0-145V145" opacity=".12"/>
+  <g transform="translate(1095 138)" fill="none">
+    <circle r="100" stroke="#5eead4" opacity=".12"/>
+    <circle r="70" stroke="#5eead4" opacity=".22"/>
+    <circle r="40" stroke="#80bfff" opacity=".4"/>
+    <path d="M-120 0H120M0-110V110" stroke="#80bfff" opacity=".15"/>
+    <path d="M-103 73L-68 20L-19 35L13-15L63-31L90-82" stroke="#5eead4" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-68 20L-87-51M13-15L-15-76M63-31L95 41" stroke="#80bfff" stroke-width="2" stroke-dasharray="5 7"/>
+    <g fill="#102536" stroke="#5eead4" stroke-width="3">
+      <circle cx="-103" cy="73" r="6"/><circle cx="-68" cy="20" r="6"/>
+      <circle cx="-19" cy="35" r="6"/><circle cx="13" cy="-15" r="6"/>
+      <circle cx="63" cy="-31" r="6"/><circle cx="90" cy="-82" r="6"/>
     </g>
-    <g fill="#253e53" stroke="#4a657b" stroke-width="1.5">
-      <path d="M-109-86h56v35h-24v30h-32Z"/><path d="M57-110h50v68H76v-29H57Z"/>
-      <path d="M-93 61h50v44h-74V83h24Z"/><path d="M49 44h67v27H79v37H49Z"/>
-    </g>
-    <path d="M-139 111L-115 17L-37 28L0 0L35-43L18-96L67-135" fill="none" stroke="#5eead4" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M-115 17L-151-33M-37 28L-20 95L27 128M35-43L115-17" fill="none" stroke="#60a5fa" stroke-opacity=".55" stroke-width="2" stroke-dasharray="5 6"/>
-    <g fill="#0f2335" stroke="#5eead4" stroke-width="3">
-      <circle cx="-139" cy="111" r="5"/><circle cx="-115" cy="17" r="5"/><circle cx="-37" cy="28" r="5"/>
-      <circle cx="35" cy="-43" r="5"/><circle cx="18" cy="-96" r="5"/><circle cx="67" cy="-135" r="5"/>
-    </g>
-    <circle r="19" fill="#5eead4" fill-opacity=".12" stroke="#5eead4"/>
-    <path d="M0-11L9 9L0 5L-9 9Z" fill="#f1f5f9" transform="rotate(38)"/>
   </g>
-  <rect x="48" y="345" width="1184" height="2" fill="url(#accent)" opacity=".6"/>
+
+  <!-- Four readable project-area cards. -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(44 297)">
+      <rect width="584" height="112" rx="13" fill="#102334" stroke="#325369"/>
+      <rect width="5" height="76" x="0" y="18" rx="2" fill="#5eead4"/>
+      <text x="24" y="34" fill="#5eead4" font-size="23" font-weight="700">ROBOTS THAT EXPLORE</text>
+      <text x="24" y="66" fill="#edf6ff" font-size="21">Geoff-Sim · Dougie-Sim · Unitree G1 / Go2</text>
+      <text x="24" y="93" fill="#b8cbdc" font-size="19">Locomotion, online mapping and navigation</text>
+    </g>
+    <g transform="translate(652 297)">
+      <rect width="584" height="112" rx="13" fill="#102334" stroke="#325369"/>
+      <rect width="5" height="76" x="0" y="18" rx="2" fill="#80bfff"/>
+      <text x="24" y="34" fill="#80bfff" font-size="23" font-weight="700">RADIATION-AWARE AUTONOMY</text>
+      <text x="24" y="66" fill="#edf6ff" font-size="21">PhD research · Occupancy-map abstraction</text>
+      <text x="24" y="93" fill="#b8cbdc" font-size="19">Gaussian processes, planning and physical validation</text>
+    </g>
+    <g transform="translate(44 427)">
+      <rect width="584" height="112" rx="13" fill="#102334" stroke="#325369"/>
+      <rect width="5" height="76" x="0" y="18" rx="2" fill="#cab4ff"/>
+      <text x="24" y="34" fill="#cab4ff" font-size="23" font-weight="700">PEOPLE, SENSING &amp; INTERACTION</text>
+      <text x="24" y="66" fill="#edf6ff" font-size="21">EmotiBit Immersion Measurement · Pepper</text>
+      <text x="24" y="93" fill="#b8cbdc" font-size="19">Physiological-data analysis and conversational robotics</text>
+    </g>
+    <g transform="translate(652 427)">
+      <rect width="584" height="112" rx="13" fill="#102334" stroke="#325369"/>
+      <rect width="5" height="76" x="0" y="18" rx="2" fill="#ffc383"/>
+      <text x="24" y="34" fill="#ffc383" font-size="23" font-weight="700">WEB &amp; PRACTICAL SOFTWARE</text>
+      <text x="24" y="66" fill="#edf6ff" font-size="21">Freelance websites · Aardvark Explorer Scouts</text>
+      <text x="24" y="93" fill="#b8cbdc" font-size="19">Responsive interfaces and reproducible research tools</text>
+    </g>
+
+    <!-- Explicit ROS generations and a compact, grouped skills inventory. -->
+    <text x="44" y="580" fill="#b8cbdc" font-size="17" font-weight="700" letter-spacing="2">MY TOOLKIT</text>
+    <rect x="44" y="597" width="248" height="46" rx="10" fill="#163c43" stroke="#5eead4"/>
+    <text x="168" y="626" text-anchor="middle" fill="#8af3df" font-size="22" font-weight="700">ROS 1 · Noetic</text>
+    <rect x="310" y="597" width="248" height="46" rx="10" fill="#18354d" stroke="#80bfff"/>
+    <text x="434" y="626" text-anchor="middle" fill="#a3d2ff" font-size="22" font-weight="700">ROS 2 · Humble</text>
+    <text x="588" y="625" fill="#edf6ff" font-size="22">Python · Docker · Linux · Git</text>
+    <text x="44" y="678" fill="#d2deea" font-size="20">MuJoCo · Gazebo · RViz · SLAM · Navigation · Gaussian processes · pandas · Matplotlib</text>
+    <text x="44" y="716" fill="#91a9bd" font-size="17" letter-spacing="1">FROM RESEARCH IDEAS TO WORKING DEMONSTRATIONS</text>
+  </g>
 </svg>

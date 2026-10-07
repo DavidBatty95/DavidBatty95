@@ -1,13 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
- <title id="title">Sony Europe and Japan — postdoctoral physiological-data research</title>
- <desc id="desc">An original schematic project card for Dr David Batty's EmotiBit analysis work. Waveforms are decorative, not experimental records.</desc>
+ <title id="title">EmotiBit Immersion Measurement — postdoctoral research</title>
+ <desc id="desc">An original schematic project card highlighting Dr David Batty's EmotiBit immersion measurement and physiological-data analysis work, with a supporting credit to Sony Europe and Japan. Waveforms are decorative, not experimental records.</desc>
  <defs><linearGradient id="bg"><stop stop-color="#0b1724"/><stop offset="1" stop-color="#183849"/></linearGradient></defs>
  <rect width="1200" height="310" rx="20" fill="url(#bg)"/>
  <g font-family="DejaVu Sans,Arial,sans-serif">
   <text x="45" y="51" fill="#69d7cd" font-size="16" letter-spacing="3">POSTDOCTORAL RESEARCH</text>
-  <text x="43" y="120" fill="#edf6ff" font-size="47" font-weight="bold">Sony Europe &amp; Japan</text>
-  <text x="45" y="164" fill="#aac3d4" font-size="23">EmotiBit physiological-data analysis</text>
-  <text x="45" y="218" fill="#edf6ff" font-size="17">Recorded signals → time-window selection → research figures</text>
+  <text x="43" y="110" fill="#edf6ff" font-size="47" font-weight="bold">EmotiBit</text>
+  <text x="43" y="157" fill="#edf6ff" font-size="38" font-weight="bold">Immersion Measurement</text>
+  <text x="45" y="194" fill="#aac3d4" font-size="17">Postdoctoral work for Sony Europe &amp; Japan</text>
+  <text x="45" y="230" fill="#edf6ff" font-size="17">Recorded signals → time-window selection → research figures</text>
   <text x="45" y="268" fill="#ffc383" font-size="16">PYTHON / PANDAS / MATPLOTLIB</text>
  </g>
  <g transform="translate(833 45)">
