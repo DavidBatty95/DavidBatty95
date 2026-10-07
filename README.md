@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/profile-banner.svg" width="100%" alt="David Batty — Robotics, autonomy and intelligent systems. From radiation-aware exploration to human-aware robots.">
+  <img src="assets/profile-banner.svg" width="100%" alt="Dr David Batty MEng MIET — Robotics, autonomy and intelligent systems. From radiation-aware exploration to human-aware robots.">
 
   <p><strong>AI &amp; Cyberphysical Systems Engineer · Robotics Researcher · PhD, University of Liverpool</strong></p>
   <p>Virtual Engineering Centre · University of Liverpool · United Kingdom</p>
