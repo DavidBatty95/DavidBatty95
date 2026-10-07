@@ -7,6 +7,8 @@
   <p>
     <a href="https://livrepository.liverpool.ac.uk/3199094/">PhD thesis</a> &nbsp; / &nbsp;
     <a href="#selected-publications">Publications</a> &nbsp; / &nbsp;
+    <a href="#postdoctoral-research">Sony research</a> &nbsp; / &nbsp;
+    <a href="#freelance-web-development">Web development</a> &nbsp; / &nbsp;
     <a href="https://orcid.org/0009-0003-5375-421X">ORCID</a> &nbsp; / &nbsp;
     <a href="https://uk.linkedin.com/in/david-batty">LinkedIn</a> &nbsp; / &nbsp;
     <a href="mailto:dwbatty@liverpool.ac.uk">Contact</a>
@@ -18,6 +20,8 @@
 I develop robotic systems that connect **perception, planning and physical action**. My work spans radiation-aware exploration in hazardous nuclear environments, humanoid simulation and human-aware navigation, and conversational robotics for public engagement.
 
 My research brings together **compact map representations, probabilistic environmental modelling and risk-aware decision-making**, with a focus on turning algorithms into integrated, inspectable robotic systems.
+
+Alongside robotics, I have undertaken **postdoctoral physiological-data research for Sony Europe and Japan**, and I also do **freelance web development** for local groups and organisations.
 
 ## Featured robotics projects
 
@@ -51,6 +55,25 @@ My research brings together **compact map representations, probabilistic environ
 `Human–robot interaction` · `Python` · `Speech recognition` · `Conversational AI`
 
 **[Explore Pepper-Assistant →](https://github.com/DavidBatty95/pepper_assistant)**
+
+## Postdoctoral research
+
+### Sony Europe and Japan — EmotiBit physiological-data analysis
+
+[![Sony Europe and Japan postdoctoral research: EmotiBit physiological-data analysis, illustrated with schematic signal traces](assets/sony-emotibit-research.svg)](https://github.com/DavidBatty95/SonyEmotiBitAnalysis)
+
+I developed this work during my **PostDoc for Sony Europe and Japan**. It supports
+the inspection of EmotiBit physiological recordings through a Python workflow
+for CSV loading, time-window selection and sensor plotting.
+
+**The work continues to be used by Tom Gallagher in Professor Alan Marshall's
+research group.**
+
+`Postdoctoral research` · `Physiological data` · `Python` · `pandas` · `Matplotlib`
+
+**[Explore SonyEmotiBitAnalysis →](https://github.com/DavidBatty95/SonyEmotiBitAnalysis)**
+
+<sub>The source repository is private and requires access. The illustration above is a schematic, not participant data. <a href="mailto:dwbatty@liverpool.ac.uk">Contact me about the research.</a></sub>
 
 ## PhD research
 
@@ -88,6 +111,36 @@ David Batty, Lupo Manes, Andrew West, Maulik Patel, Ipek Caliskanelli and Paolo 
 *Towards Autonomous Robotic Systems — TAROS 2023*, pp. 77–88. Springer, 2023.<br>
 [Read publication →](https://doi.org/10.1007/978-3-031-43360-3_7)
 
+## Freelance web development
+
+I also build **responsive websites for local groups and organisations**, bringing
+the same attention to clear interfaces and practical delivery to my freelance
+web-development work.
+
+### Aardvark Explorer Scout Unit
+
+A website I am developing for a **local Scout group in South Liverpool**,
+bringing its programme, stories, gallery, leader information and joining routes
+together in a clear desktop and mobile experience.
+
+<table>
+  <tr>
+    <td width="76%" valign="top">
+      <a href="https://aardvarkesuwebsite.onrender.com/"><img src="assets/aardvark-desktop.png" width="100%" alt="Desktop screenshot of the Aardvark Explorer Scout Unit website, showing the navigation and Adventure starts here homepage"></a>
+    </td>
+    <td width="24%" valign="top">
+      <a href="https://aardvarkesuwebsite.onrender.com/"><img src="assets/aardvark-mobile.png" width="100%" alt="Mobile screenshot of the Aardvark Explorer Scout Unit website with compact navigation and joining links"></a>
+    </td>
+  </tr>
+</table>
+
+<sub>Actual screenshots of the public development site, captured 7 October 2026. Desktop and mobile browser views; the website continues to evolve.</sub>
+
+`Freelance web development` · `Responsive design` · `Community websites` · `Render deployment`
+
+**[Visit the live website →](https://aardvarkesuwebsite.onrender.com/)** &nbsp; · &nbsp;
+**[Discuss a website project →](mailto:dwbatty@liverpool.ac.uk)**
+
 ## Technical focus
 
 | Robotics & autonomy | Modelling & intelligence | Engineering |
@@ -95,11 +148,12 @@ David Batty, Lupo Manes, Andrew West, Maulik Patel, Ipek Caliskanelli and Paolo 
 | ROS / ROS 2 · SLAM · navigation | Gaussian processes · radiation mapping | Python · Linux · Docker |
 | Humanoids · quadrupeds · social robots | Map abstraction · risk-aware planning | Simulation · benchmarking · reproducible experiments |
 | Unitree G1 · Unitree Go2 · Pepper | Speech recognition · conversational AI | MuJoCo · RViz · system integration |
+| Experimental sensing · wearable data | Physiological time series · pandas · Matplotlib | Responsive websites · freelance web development |
 
 ---
 
 <div align="center">
-  <strong>Let's connect on robotics, autonomous systems and research collaboration.</strong><br>
+  <strong>Let's connect on robotics, research collaboration and freelance web development.</strong><br>
   <a href="mailto:dwbatty@liverpool.ac.uk">dwbatty@liverpool.ac.uk</a> &nbsp; · &nbsp;
   <a href="https://uk.linkedin.com/in/david-batty">LinkedIn</a> &nbsp; · &nbsp;
   <a href="https://orcid.org/0009-0003-5375-421X">ORCID</a>

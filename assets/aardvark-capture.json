@@ -1,0 +1,34 @@
+[
+  {
+    "file": "assets/aardvark-desktop.png",
+    "url": "https://aardvarkesuwebsite.onrender.com/",
+    "title": "Aardvark Explorer Scouts in South Liverpool",
+    "captured_at_utc": "2026-10-07T13:38:12.690641+00:00",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "device_scale_factor": 1,
+    "mobile_emulation": false,
+    "reduced_motion": true,
+    "browser": "145.0.7632.6",
+    "sha256": "d6fbd55ab26cb2af106861c491ea554bbba28db4644905142b7419c2b1517774",
+    "bytes": 1540059
+  },
+  {
+    "file": "assets/aardvark-mobile.png",
+    "url": "https://aardvarkesuwebsite.onrender.com/",
+    "title": "Aardvark Explorer Scouts in South Liverpool",
+    "captured_at_utc": "2026-10-07T13:38:14.291140+00:00",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "mobile_emulation": true,
+    "reduced_motion": true,
+    "browser": "145.0.7632.6",
+    "sha256": "54faf095cfc3a0efd2d65b905b8fe98f02ef6214b5ba12639609d9ae59c32179",
+    "bytes": 231403
+  }
+]

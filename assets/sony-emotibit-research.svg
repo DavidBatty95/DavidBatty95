@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
+ <title id="title">Sony Europe and Japan — postdoctoral physiological-data research</title>
+ <desc id="desc">An original schematic project card for Dr David Batty's EmotiBit analysis work. Waveforms are decorative, not experimental records.</desc>
+ <defs><linearGradient id="bg"><stop stop-color="#0b1724"/><stop offset="1" stop-color="#183849"/></linearGradient></defs>
+ <rect width="1200" height="310" rx="20" fill="url(#bg)"/>
+ <g font-family="DejaVu Sans,Arial,sans-serif">
+  <text x="45" y="51" fill="#69d7cd" font-size="16" letter-spacing="3">POSTDOCTORAL RESEARCH</text>
+  <text x="43" y="120" fill="#edf6ff" font-size="47" font-weight="bold">Sony Europe &amp; Japan</text>
+  <text x="45" y="164" fill="#aac3d4" font-size="23">EmotiBit physiological-data analysis</text>
+  <text x="45" y="218" fill="#edf6ff" font-size="17">Recorded signals → time-window selection → research figures</text>
+  <text x="45" y="268" fill="#ffc383" font-size="16">PYTHON / PANDAS / MATPLOTLIB</text>
+ </g>
+ <g transform="translate(833 45)">
+  <rect width="313" height="220" rx="16" fill="#0b1724" stroke="#33566a"/>
+  <g fill="none" stroke-width="3" stroke-linejoin="round">
+   <path d="M20 57H48L59 47L72 76L88 25L102 58H139L160 48L177 57H293" stroke="#69d7cd"/>
+   <path d="M20 117Q37 90 54 117T88 117T122 117T156 117T190 117T224 117T258 117T292 117" stroke="#80bfff"/>
+   <path d="M20 174Q62 174 90 155T151 164T218 167T293 153" stroke="#ffc383"/>
+  </g>
+  <text x="155" y="204" text-anchor="middle" fill="#aac3d4" font-family="DejaVu Sans,Arial,sans-serif" font-size="11">SCHEMATIC / NOT EXPERIMENTAL DATA</text>
+ </g>
+</svg>
