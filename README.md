@@ -28,13 +28,13 @@ I develop robotic systems that connect **perception, planning and physical actio
 
 My research brings together **compact map representations, probabilistic environmental modelling and risk-aware decision-making**, with a focus on turning algorithms into integrated, inspectable robotic systems.
 
-Alongside robotics, I have undertaken **postdoctoral physiological-data research for Sony Europe and Japan**, and I also do **freelance web development** for local groups and organisations.
+Alongside robotics, I also do **freelance web development** for local groups and organisations.
 
 ---
 
 ## Current Research
 
-Robotic autonomy, radiation-aware exploration and physiological-data tools supporting ongoing research.
+Ongoing work in robotic autonomy, radiation-aware exploration and human-aware navigation.
 
 ### Robotics and autonomous systems
 
@@ -60,23 +60,6 @@ Robotic autonomy, radiation-aware exploration and physiological-data tools suppo
 </table>
 
 <sub>Recorded simulation previews from separate runs; project documentation contains the evaluation results. Geoff-Sim and Dougie-Sim are currently private repositories: source links require access. <a href="mailto:dwbatty@liverpool.ac.uk">Contact me about the projects.</a></sub>
-
-### EmotiBit Immersion Measurement
-
-[![EmotiBit Immersion Measurement — postdoctoral research, with a supporting credit to Sony Europe and Japan and schematic signal traces](assets/sony-emotibit-research.svg)](https://github.com/DavidBatty95/SonyEmotiBitAnalysis)
-
-I developed this work during my **PostDoc for Sony Europe and Japan**. It supports
-the inspection of EmotiBit physiological recordings through a Python workflow
-for CSV loading, time-window selection and sensor plotting.
-
-**The work continues to be used by Tom Gallagher in Professor Alan Marshall's
-research group.**
-
-`Postdoctoral research` · `Physiological data` · `Python` · `pandas` · `Matplotlib`
-
-**[Explore SonyEmotiBitAnalysis →](https://github.com/DavidBatty95/SonyEmotiBitAnalysis)**
-
-<sub>The source repository is private and requires access. The illustration above is a schematic, not participant data. <a href="mailto:dwbatty@liverpool.ac.uk">Contact me about the research.</a></sub>
 
 [↑ Back to top](#top)
 
@@ -158,7 +141,7 @@ together in a clear desktop and mobile experience.
 
 ## Other Projects
 
-Applied robotics and interactive systems for demonstrations and public engagement.
+Applied robotics for public engagement and previous research projects.
 
 ### [Pepper-Assistant](https://github.com/DavidBatty95/pepper_assistant)
 
@@ -167,6 +150,24 @@ Applied robotics and interactive systems for demonstrations and public engagemen
 `Human–robot interaction` · `Python` · `Speech recognition` · `Conversational AI`
 
 **[Explore Pepper-Assistant →](https://github.com/DavidBatty95/pepper_assistant)**
+
+### EmotiBit Immersion Measurement — previous postdoctoral work
+
+[![EmotiBit Immersion Measurement — previous postdoctoral research for Sony Europe and Japan, with schematic signal traces](assets/sony-emotibit-research.svg)](https://github.com/DavidBatty95/SonyEmotiBitAnalysis)
+
+I developed this work during my **PostDoc for Sony Europe and Japan**. This is
+previous research, rather than an ongoing project of mine. The Python workflow
+supports inspection of EmotiBit physiological recordings through CSV loading,
+time-window selection and sensor plotting.
+
+The work continues to be used by Tom Gallagher in Professor Alan Marshall's
+research group.
+
+`Previous postdoctoral research` · `Physiological data` · `Python` · `pandas` · `Matplotlib`
+
+**[Explore SonyEmotiBitAnalysis →](https://github.com/DavidBatty95/SonyEmotiBitAnalysis)**
+
+<sub>The source repository is private and requires access. The illustration above is a schematic, not participant data. <a href="mailto:dwbatty@liverpool.ac.uk">Contact me about the research.</a></sub>
 
 [↑ Back to top](#top)
 
