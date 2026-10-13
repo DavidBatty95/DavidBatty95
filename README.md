@@ -7,6 +7,11 @@
   <p>Virtual Engineering Centre · University of Liverpool · United Kingdom</p>
 
   <p>
+    <a href="assets/David_Batty_Engineering_CV.pdf"><img src="assets/engineering-cv.svg" width="340" height="64" alt="View my Engineering CV (PDF)"></a>
+  </p>
+  <p><a href="assets/David_Batty_Engineering_CV.pdf">View Engineering CV</a> &nbsp; · &nbsp; <a href="https://raw.githubusercontent.com/DavidBatty95/DavidBatty95/main/assets/David_Batty_Engineering_CV.pdf">Open PDF directly</a></p>
+
+  <p>
     <a href="#current-research"><img src="assets/nav-current-research.svg" width="205" height="48" alt="Current Research"></a>
     <a href="#phd-research"><img src="assets/nav-phd-research.svg" width="205" height="48" alt="PhD Research"></a>
     <a href="#web-development"><img src="assets/nav-web-development.svg" width="205" height="48" alt="Web Development"></a>
@@ -66,6 +71,8 @@ Ongoing work in robotic autonomy, radiation-aware exploration and human-aware na
 ---
 
 ## PhD Research
+
+[![PhD Research — Radiation-aware robotic exploration. Mapping, inference and planning for unknown hazardous nuclear environments. University of Liverpool, 2026. Read the thesis.](assets/phd-research-banner.svg)](https://livrepository.liverpool.ac.uk/3199094/)
 
 > ### Radiation Aware Navigation and Planning for Mobile Robot Exploration of Unknown Hazardous Nuclear Environments
 > **David Batty · PhD thesis · University of Liverpool · 2026**
