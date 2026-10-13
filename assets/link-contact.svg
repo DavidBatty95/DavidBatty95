@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="36" viewBox="0 0 120 36" role="img" aria-labelledby="title">
+  <title id="title">Contact by email</title>
+  <rect x="0.5" y="0.5" width="119" height="35" rx="8" fill="#102536" stroke="#31556c"/>
+  <g fill="none" stroke="#80bfff" stroke-width="1.5" stroke-linejoin="round">
+    <rect x="15" y="11" width="19" height="14" rx="2"/>
+    <path d="M16 12l8.5 7 8.5-7"/>
+  </g>
+  <text x="45" y="23" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" fill="#d5e3ef">Contact</text>
+</svg>

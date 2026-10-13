@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="36" viewBox="0 0 120 36" role="img" aria-labelledby="title">
+  <title id="title">PhD thesis</title>
+  <rect x="0.5" y="0.5" width="119" height="35" rx="8" fill="#102536" stroke="#31556c"/>
+  <path d="M12 12l9-4 9 4-9 4z M15 15v6q6 5 12 0v-6 M30 12v10" fill="none" stroke="#80bfff" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="39" y="23" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" fill="#d5e3ef">PhD thesis</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="36" viewBox="0 0 120 36" role="img" aria-labelledby="title">
+  <title id="title">Publications</title>
+  <rect x="0.5" y="0.5" width="119" height="35" rx="8" fill="#102536" stroke="#31556c"/>
+  <path d="M9 11h7l3 2 3-2h7v15h-7l-3 2-3-2H9z M19 13v15" fill="none" stroke="#80bfff" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="35" y="23" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#d5e3ef">Publications</text>
+</svg>

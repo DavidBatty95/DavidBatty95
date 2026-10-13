@@ -1,11 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="340" height="64" viewBox="0 0 340 64" role="img" aria-labelledby="title desc">
-  <title id="title">Engineering CV</title>
-  <desc id="desc">View David Batty's Engineering CV as a PDF.</desc>
-  <rect x="1" y="1" width="338" height="62" rx="12" fill="#80bfff" stroke="#b9dcff" stroke-width="2"/>
-  <g fill="none" stroke="#102536" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M25 17h17l8 8v22H25z M42 17v9h8 M31 33h13 M31 39h10"/>
-    <path d="M302 25l7 7-7 7 M290 32h19"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="36" viewBox="0 0 120 36" role="img" aria-labelledby="title">
+  <title id="title">Engineering CV (PDF)</title>
+  <rect x="0.5" y="0.5" width="119" height="35" rx="8" fill="#102536" stroke="#31556c"/>
+  <g fill="none" stroke="#80bfff" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M17 9h10l5 5v13H17z M27 9v5h5 M21 18h7 M21 22h7"/>
   </g>
-  <text x="67" y="30" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="bold" fill="#102536">Engineering CV</text>
-  <text x="68" y="47" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#183b53">VIEW / DOWNLOAD PDF</text>
+  <text x="45" y="23" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" fill="#d5e3ef">CV / PDF</text>
 </svg>

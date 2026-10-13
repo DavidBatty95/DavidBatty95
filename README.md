@@ -7,11 +7,6 @@
   <p>Virtual Engineering Centre · University of Liverpool · United Kingdom</p>
 
   <p>
-    <a href="assets/David_Batty_Engineering_CV.pdf"><img src="assets/engineering-cv.svg" width="340" height="64" alt="View my Engineering CV (PDF)"></a>
-  </p>
-  <p><a href="assets/David_Batty_Engineering_CV.pdf">View Engineering CV</a> &nbsp; · &nbsp; <a href="https://raw.githubusercontent.com/DavidBatty95/DavidBatty95/main/assets/David_Batty_Engineering_CV.pdf">Open PDF directly</a></p>
-
-  <p>
     <a href="#current-research"><img src="assets/nav-current-research.svg" width="205" height="48" alt="Current Research"></a>
     <a href="#phd-research"><img src="assets/nav-phd-research.svg" width="205" height="48" alt="PhD Research"></a>
     <a href="#web-development"><img src="assets/nav-web-development.svg" width="205" height="48" alt="Web Development"></a>
@@ -19,11 +14,12 @@
   </p>
 
   <p>
-    <a href="https://livrepository.liverpool.ac.uk/3199094/">PhD thesis</a> &nbsp; / &nbsp;
-    <a href="#selected-publications">Publications</a> &nbsp; / &nbsp;
-    <a href="https://orcid.org/0009-0003-5375-421X">ORCID</a> &nbsp; / &nbsp;
-    <a href="https://uk.linkedin.com/in/david-batty">LinkedIn</a> &nbsp; / &nbsp;
-    <a href="mailto:dwbatty@liverpool.ac.uk">Contact</a>
+    <a href="assets/David_Batty_Engineering_CV.pdf"><img src="assets/engineering-cv.svg" width="120" height="36" alt="CV (PDF)"></a>
+    <a href="https://uk.linkedin.com/in/david-batty"><img src="assets/link-linkedin.svg" width="120" height="36" alt="LinkedIn"></a>
+    <a href="https://orcid.org/0009-0003-5375-421X"><img src="assets/link-orcid.svg" width="120" height="36" alt="ORCID"></a>
+    <a href="https://livrepository.liverpool.ac.uk/3199094/"><img src="assets/link-thesis.svg" width="120" height="36" alt="PhD thesis"></a>
+    <a href="#selected-publications"><img src="assets/link-publications.svg" width="120" height="36" alt="Publications"></a>
+    <a href="mailto:dwbatty@liverpool.ac.uk"><img src="assets/link-contact.svg" width="120" height="36" alt="Contact"></a>
   </p>
 </div>
 
