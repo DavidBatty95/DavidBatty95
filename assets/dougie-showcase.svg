@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Dougie-Sim — Explore the unknown. Budget the way home.</title>
+<desc id="desc">Quadruped exploration with radiation constraints.. Online Gaussian process mapping, observed. terrain and dose-aware return reasoning.. Workflow: Sense + explore, Infer the field, Plan with dose, Return home. Original illustrative schematic, not recorded robot motion or live measurements.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#091725"/><stop offset="1" stop-color="#132d40"/></linearGradient>
+<linearGradient id="edge"><stop stop-color="#f2c487"/><stop offset="1" stop-color="#1b3b50"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#f2c487" stop-opacity=".12"/><stop offset="1" stop-color="#f2c487" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#2a485d" stroke-width=".6"/></pattern>
+</defs>
+<style>
+text {font-family:Segoe UI,Helvetica,Arial,sans-serif}
+.body {fill:#bdcfdd;font-size:21px} .step {fill:#eaf3fa;font-size:19px;font-weight:650}
+.number {fill:#f2c487;font-size:16px;font-weight:700} .label {font-size:12px;fill:#a9bfce;letter-spacing:1px}
+.flow {stroke-dasharray:7 9;animation:flow 4s linear infinite}
+.pulse {animation:pulse 4s ease-in-out infinite}
+@keyframes flow {to {stroke-dashoffset:-64}} @keyframes pulse {50% {opacity:.35}}
+@media(prefers-reduced-motion:reduce) {* {animation:none!important}}
+</style>
+<rect width="1200" height="420" rx="20" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="418" rx="19" fill="none" stroke="#294558"/>
+<path d="M24 1H1176" stroke="url(#edge)" stroke-width="3"/>
+<rect x="624" y="20" width="554" height="282" fill="url(#grid)" opacity=".28"/>
+<ellipse cx="920" cy="150" rx="280" ry="160" fill="url(#glow)"/>
+<text x="46" y="48" fill="#f2c487" font-size="13" font-weight="750" letter-spacing="2.3">02 / RISK-AWARE EXPLORATION</text>
+<text x="42" y="124" fill="#f3f8fc" font-size="67" font-weight="800" letter-spacing="-2">Dougie-Sim</text>
+<text x="46" y="160" fill="#f2c487" font-size="23" font-weight="600">Explore the unknown. Budget the way home.</text>
+<text x="46" y="192" class="body">Quadruped exploration with radiation constraints.</text><text x="46" y="222" class="body">Online Gaussian process mapping, observed</text><text x="46" y="252" class="body">terrain and dose-aware return reasoning.</text>
+
+<g transform="translate(642 8)">
+ <path d="M10 228L267 102L526 220L269 289Z" fill="#162c40" stroke="#466078"/>
+ <path d="M52 230L275 127M114 250L331 153M174 269L386 178M83 191L286 273M146 160L353 251" stroke="#28435a"/>
+ <path d="M259 113V197M353 154V241M484 98V209" stroke="#59748b" stroke-width="7"/>
+ <path d="M237 100L369 38L506 96L374 163Z" fill="#29475d" stroke="#7a98ac" stroke-width="2"/>
+ <path d="M237 100V110L374 174V163M374 174L506 107V96" fill="#1c354a" stroke="#47677e"/>
+ <path d="M372 163L471 213L423 237L324 186Z" fill="#5a6672" stroke="#94a6b2"/>
+ <path d="M324 186L226 236L271 258L369 209Z" fill="#465e73" stroke="#94a6b2"/>
+ <path d="M240 86L369 24L502 82M240 86V102M369 24V39M502 82V98M280 67V83M326 46V62M413 43V57M459 63V77" fill="none" stroke="#e8bf78" stroke-width="2"/>
+ <ellipse cx="425" cy="105" rx="42" ry="19" fill="#ef8f61" opacity=".12"/>
+ <ellipse class="pulse" cx="425" cy="105" rx="30" ry="14" fill="none" stroke="#efb879"/>
+ <path d="M410 72Q424 65 438 72V103Q424 112 410 103Z" fill="#b78748" stroke="#f5ca83"/>
+ <ellipse cx="424" cy="72" rx="14" ry="5" fill="#f2c87b"/>
+ <text x="415" y="98" fill="#493b27" font-family="DejaVu Sans,sans-serif" font-size="22">☢</text>
+ <g fill="#efb879" opacity=".65"><circle cx="384" cy="109" r="3"/><circle cx="395" cy="123" r="3"/><circle cx="418" cy="125" r="4"/><circle cx="447" cy="117" r="4"/><circle cx="464" cy="102" r="3"/><circle cx="459" cy="88" r="3"/></g>
+ <g fill="#83cbd4" opacity=".7"><circle cx="318" cy="88" r="2"/><circle cx="336" cy="97" r="2"/><circle cx="354" cy="106" r="3"/><circle cx="349" cy="79" r="2"/><circle cx="368" cy="88" r="3"/></g>
+ <path class="flow" d="M77 239L176 213L228 236L271 247L338 207L361 188L419 216L451 211L362 166L402 133" fill="none" stroke="#91d9d0" stroke-width="3"/>
+ <circle cx="77" cy="239" r="12" fill="#183c4d" stroke="#91d9d0" stroke-width="2"/>
+ <path d="M71 240L77 234L83 240V245H71Z" fill="#91d9d0"/>
+ <text x="32" y="270" class="label">RETURN RESERVE</text>
+ <g stroke-linecap="round" stroke-linejoin="round">
+  <path d="M160 169L148 196L159 216M201 171L213 193L203 218" stroke="#1c2936" stroke-width="13" fill="none"/>
+  <path d="M160 169L148 196L159 216M201 171L213 193L203 218" stroke="#88a6b9" stroke-width="7" fill="none"/>
+  <path d="M141 180L130 206L139 228M183 187L194 211L185 232" stroke="#0a1725" stroke-width="14" fill="none"/>
+  <path d="M141 180L130 206L139 228M183 187L194 211L185 232" stroke="#d4e4ec" stroke-width="8" fill="none"/>
+ </g>
+ <path d="M128 159L155 146L211 164L185 181Z" fill="#e3edf2" stroke="#9cb5c5"/>
+ <path d="M128 159V176L185 198V181Z" fill="#86a7bc" stroke="#acbfcd"/>
+ <path d="M185 181L211 164V180L185 198Z" fill="#24465c"/>
+ <path d="M116 157L134 151L144 163L129 175L116 171Z" fill="#cfdee7"/>
+ <circle cx="120" cy="163" r="4" fill="#122a3d"/>
+ <path d="M173 144V133M166 133H180" stroke="#e6bc7b" stroke-width="3"/>
+ <circle class="pulse" cx="173" cy="127" r="5" fill="#f2c87b"/>
+ <path d="M173 124Q185 103 209 105M173 124Q188 91 225 95" fill="none" stroke="#e6bc7b" opacity=".6"/>
+ <text x="292" y="282" class="label">MULTI-HEIGHT MAPPING</text>
+ <text x="267" y="16" class="label">ILLUSTRATED FACILITY</text>
+</g>
+<path d="M46 308H1154" stroke="#2c475c"/>
+<g transform="translate(46 349)"><text y="0" class="number">01</text><text x="34" y="0" class="step">Sense + explore</text></g><g transform="translate(330 349)"><text y="0" class="number">02</text><text x="34" y="0" class="step">Infer the field</text></g><g transform="translate(614 349)"><text y="0" class="number">03</text><text x="34" y="0" class="step">Plan with dose</text></g><g transform="translate(898 349)"><text y="0" class="number">04</text><text x="34" y="0" class="step">Return home</text></g>
+<text x="46" y="391" fill="#809cad" font-size="13">UNITREE GO2 · POISSON SENSING · SPARSE GP · MULTI-HEIGHT TERRAIN</text>
+<text x="1154" y="391" text-anchor="end" fill="#f2c487" font-size="14" font-weight="700">EXPLORE THE PROJECT ↗</text>
+</svg>

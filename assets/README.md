@@ -25,6 +25,41 @@ python3 scripts/prepare_media.py
 Profile research references were checked against the Liverpool thesis record
 (DOI `10.17638/03199094`) and Crossref publication metadata in October 2026.
 
+## Project showcases
+
+The Current Research section was refreshed on 14 October 2026:
+
+- `geoff-showcase.svg`: original G1 locomanipulation illustration, with observed
+  pickup, a carried cube, target pad and the observe/dock/carry/verify pipeline.
+- `dougie-showcase.svg`: original Go2 illustration in a multi-level facility,
+  with a radiation source, sensing arcs, service ramps and a return route.
+- Both cards use a coordinated midnight palette, project-specific cyan/amber
+  accents, large titles, accessible SVG descriptions, subtle route/pulse motion
+  and reduced-motion support. They are schematics, not live telemetry.
+- `geoff-locomanipulation.gif`: resized actual MuJoCo pickup/lift excerpt from
+  Geoff run `20261014T164500Z-readme-settling`. The source run later fell during
+  delivery navigation. Original frame durations and the outcome end card are
+  retained. No complete-delivery or physical finger-grasp claim is implied.
+- `dougie-multilevel.gif`: newly rendered accelerated replay of actual seed-3
+  detector positions from the full-height facility dataset. It shows XYZ motion
+  and height history; the floor outlines are reference planes, not a reconstructed
+  map. It is not video, a learned radiation field or complete-coverage evidence.
+  The final dose is labelled as the recorded outcome, not a live cumulative trace.
+
+Nonanimated alternatives: [Geoff](geoff-locomanipulation.png) and
+[Dougie](dougie-multilevel.png). The earlier `geoff-sim.gif` and `dougie-sim.gif`
+remain historical assets, with their original identities in `sources.json`.
+
+`project-showcase-sources.json` records source repository revisions, source-file
+hashes and dirty state, the selected Dougie outcome and source measurement hashes,
+and all generated asset SHA-256 hashes. To regenerate using local checkouts and
+Pillow (DejaVu Sans is used for raster labels):
+
+```bash
+python3 scripts/build_project_showcase.py --geoff /path/to/Geoff-Sim --dougie /path/to/Dougie-Sim
+python3 scripts/check_profile.py
+```
+
 ## EmotiBit postdoctoral research card
 
 `sony-emotibit-research.svg` is original schematic artwork for the profile.

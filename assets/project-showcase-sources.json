@@ -1,0 +1,61 @@
+{
+  "scope": "Original schematic project cards; Geoff actual captured excerpt; Dougie actual downsampled telemetry replay",
+  "sources": [
+    {
+      "repository": "DavidBatty95/Geoff-Sim",
+      "path": "docs/media/locomanipulation/pickup-and-lift.gif",
+      "sha256": "a18dc6ae06e6dddf0de9161bf2e0e54217bcf84e6fb23275e9397d83a54b4be5",
+      "head": "a87a6618ab345c36993547525985dde6eeefe817",
+      "source_dirty": false
+    },
+    {
+      "repository": "DavidBatty95/Dougie-Sim",
+      "path": "docs/media/dougie/facility-telemetry.json",
+      "sha256": "e94f2af6d216093d75c5cf1739ed22a50736a8a4d03ca28f285e8b304189c775",
+      "head": "b8e70cb6a1b1393442c829ff43e16589ab048242",
+      "source_dirty": false
+    }
+  ],
+  "dougie_selected_run": {
+    "run": "radiation_20261014T152105_089521Z",
+    "seed": 3,
+    "round_trip": true,
+    "duration_s": 2365.4400000284218,
+    "dose_usv": 1.0107582092826959,
+    "measurement_sha256": "c77f3e522a6650dd86b163b50b699cba99942a687041b7bb9319d2d06c27795a",
+    "summary_sha256": "64ac50af20b09603cf36307a6ac460b09c86f43d7dacc58880a2b92aa965ce88"
+  },
+  "geoff_scope": "Pickup/lift excerpt from 20261014T164500Z-readme-settling; source attempt later fell, no completed delivery",
+  "files": [
+    {
+      "file": "assets/geoff-showcase.svg",
+      "sha256": "1a1c345936578204d87fd37badbd87981bae796b523ebcbf28e7c1d0f3cbf7e4",
+      "bytes": 5918
+    },
+    {
+      "file": "assets/dougie-showcase.svg",
+      "sha256": "dd0d8fc1769396e6cd07da21e6529751ac0f3eb17bbfff8750e5d6530e34615d",
+      "bytes": 6546
+    },
+    {
+      "file": "assets/geoff-locomanipulation.gif",
+      "sha256": "4c407b6b9defc205d54e9cbc9d3248e5c21392233bd33dda8b815eb336898161",
+      "bytes": 3381398
+    },
+    {
+      "file": "assets/geoff-locomanipulation.png",
+      "sha256": "979ce482166526e7b3d3b4db7fb34347530231ae7f87920510a905f482808551",
+      "bytes": 388983
+    },
+    {
+      "file": "assets/dougie-multilevel.gif",
+      "sha256": "2b9322659866f577eb09a77d46651f43801f9362a3d5214f39118f97290a685d",
+      "bytes": 449565
+    },
+    {
+      "file": "assets/dougie-multilevel.png",
+      "sha256": "4e2db287f25e1fbdae34ba5386b464e21abc47dd6bede1092530b6145184e350",
+      "bytes": 34488
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Geoff-Sim — Perceive. Pick up. Walk. Deliver.</title>
+<desc id="desc">Sensor-driven humanoid locomanipulation.. RGB-D pickup, loaded walking and human-aware. planning in one inspectable research platform.. Workflow: Observe + map, Approach + dock, Pick up + carry, Place + verify. Original illustrative schematic, not recorded robot motion or live measurements.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#091725"/><stop offset="1" stop-color="#132d40"/></linearGradient>
+<linearGradient id="edge"><stop stop-color="#76e7d2"/><stop offset="1" stop-color="#1b3b50"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#76e7d2" stop-opacity=".12"/><stop offset="1" stop-color="#76e7d2" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#2a485d" stroke-width=".6"/></pattern>
+</defs>
+<style>
+text {font-family:Segoe UI,Helvetica,Arial,sans-serif}
+.body {fill:#bdcfdd;font-size:21px} .step {fill:#eaf3fa;font-size:19px;font-weight:650}
+.number {fill:#76e7d2;font-size:16px;font-weight:700} .label {font-size:12px;fill:#a9bfce;letter-spacing:1px}
+.flow {stroke-dasharray:7 9;animation:flow 4s linear infinite}
+.pulse {animation:pulse 4s ease-in-out infinite}
+@keyframes flow {to {stroke-dashoffset:-64}} @keyframes pulse {50% {opacity:.35}}
+@media(prefers-reduced-motion:reduce) {* {animation:none!important}}
+</style>
+<rect width="1200" height="420" rx="20" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="418" rx="19" fill="none" stroke="#294558"/>
+<path d="M24 1H1176" stroke="url(#edge)" stroke-width="3"/>
+<rect x="624" y="20" width="554" height="282" fill="url(#grid)" opacity=".28"/>
+<ellipse cx="920" cy="150" rx="280" ry="160" fill="url(#glow)"/>
+<text x="46" y="48" fill="#76e7d2" font-size="13" font-weight="750" letter-spacing="2.3">01 / EMBODIED AUTONOMY</text>
+<text x="42" y="124" fill="#f3f8fc" font-size="67" font-weight="800" letter-spacing="-2">Geoff-Sim</text>
+<text x="46" y="160" fill="#76e7d2" font-size="23" font-weight="600">Perceive. Pick up. Walk. Deliver.</text>
+<text x="46" y="192" class="body">Sensor-driven humanoid locomanipulation.</text><text x="46" y="222" class="body">RGB-D pickup, loaded walking and human-aware</text><text x="46" y="252" class="body">planning in one inspectable research platform.</text>
+
+<g transform="translate(641 10)">
+ <path d="M10 235L275 105L528 224L270 290Z" fill="#153247" stroke="#31556b"/>
+ <path d="M55 238L280 129M112 264L335 154M168 285L390 181M71 205L287 283M128 177L345 255M185 150L402 227" stroke="#24485e" fill="none"/>
+ <path class="flow" d="M142 226Q195 260 255 221T417 225" stroke="#74e6cf" stroke-width="3" fill="none"/>
+ <ellipse cx="277" cy="235" rx="58" ry="21" fill="#6fe0dc" opacity=".08"/>
+ <ellipse class="pulse" cx="277" cy="235" rx="79" ry="28" fill="none" stroke="#6fe0dc" stroke-opacity=".5"/>
+ <g stroke="#668499" stroke-width="6" stroke-linecap="round"><path d="M89 176V232M159 191V246M185 169V221M379 176V228M449 190V242M480 168V221"/></g>
+ <path d="M67 164L117 140L196 169L148 194Z" fill="#96684d" stroke="#c79770"/>
+ <path d="M359 162L408 138L488 167L441 192Z" fill="#96684d" stroke="#c79770"/>
+ <path d="M389 163L411 152L452 167L430 179Z" fill="#547ee2" stroke="#a3c4ff" stroke-width="2"/>
+ <g stroke-linecap="round" stroke-linejoin="round">
+  <path d="M268 163L252 197L241 231M280 164L298 193L311 224" fill="none" stroke="#0b1726" stroke-width="17"/>
+  <path d="M268 163L252 197L241 231M280 164L298 193L311 224" fill="none" stroke="#c5d9e4" stroke-width="11"/>
+  <path d="M244 232L231 236M311 225L326 230" stroke="#82a3b9" stroke-width="10"/>
+  <path d="M261 113L237 143L225 165M285 113L306 138L339 127" fill="none" stroke="#0b1726" stroke-width="15"/>
+  <path d="M261 113L237 143L225 165M285 113L306 138L339 127" fill="none" stroke="#d2e3ed" stroke-width="9"/>
+ </g>
+ <path d="M254 104Q274 95 292 105L288 158Q272 174 257 157Z" fill="#d9e7ee" stroke="#91b0c3"/>
+ <path d="M260 113H285L282 145H263Z" fill="#24495f"/>
+ <circle class="pulse" cx="273" cy="121" r="5" fill="#73ebdb"/>
+ <rect x="259" y="70" width="30" height="28" rx="9" fill="#dcebf1"/>
+ <path d="M266 83H282" stroke="#132a3c" stroke-width="5" stroke-linecap="round"/>
+ <path d="M329 107L350 97L370 107L350 117Z" fill="#ffc18e"/>
+ <path d="M329 107V128L350 140V117Z" fill="#ec795e"/>
+ <path d="M350 117L370 107V129L350 140Z" fill="#ad4947"/>
+ <path d="M273 83L186 126M273 83L336 53" stroke="#72e8df" stroke-width="1" stroke-dasharray="3 5" opacity=".6"/>
+ <g fill="#72e8df"><circle cx="186" cy="126" r="3"/><circle cx="336" cy="53" r="3"/><circle cx="200" cy="119" r="2"/><circle cx="325" cy="57" r="2"/></g>
+ <text x="22" y="117" class="label">OBSERVED PICKUP</text><path d="M113 124V138" stroke="#668499"/>
+ <text x="373" y="117" class="label">TARGET PAD</text><path d="M417 123V139" stroke="#668499"/>
+ <text x="196" y="278" class="label">ILLUSTRATED WORKFLOW</text>
+</g>
+<path d="M46 308H1154" stroke="#2c475c"/>
+<g transform="translate(46 349)"><text y="0" class="number">01</text><text x="34" y="0" class="step">Observe + map</text></g><g transform="translate(330 349)"><text y="0" class="number">02</text><text x="34" y="0" class="step">Approach + dock</text></g><g transform="translate(614 349)"><text y="0" class="number">03</text><text x="34" y="0" class="step">Pick up + carry</text></g><g transform="translate(898 349)"><text y="0" class="number">04</text><text x="34" y="0" class="step">Place + verify</text></g>
+<text x="46" y="391" fill="#809cad" font-size="13">UNITREE G1 · ROS 2 HUMBLE · MUJOCO · ONBOARD PERCEPTION</text>
+<text x="1154" y="391" text-anchor="end" fill="#76e7d2" font-size="14" font-weight="700">EXPLORE THE PROJECT ↗</text>
+</svg>

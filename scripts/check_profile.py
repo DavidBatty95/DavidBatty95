@@ -53,9 +53,15 @@ def main():
         path = ROOT/capture['file']
         if hashlib.sha256(path.read_bytes()).hexdigest() != capture['sha256']:
             errors.append(f'Screenshot hash mismatch: {capture["file"]}')
+    showcase = ROOT/'assets/project-showcase-sources.json'
+    if showcase.exists():
+        for asset in json.loads(showcase.read_text())['files']:
+            path = ROOT/asset['file']
+            if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest()!=asset['sha256']:
+                errors.append(f'Project showcase hash mismatch: {asset["file"]}')
     if errors:
         raise SystemExit('\n'.join(errors))
-    print('Profile links, SVG XML and screenshot hashes passed')
+    print('Profile links, SVG XML, screenshot and project-showcase hashes passed')
 
 
 if __name__ == '__main__':

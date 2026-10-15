@@ -35,32 +35,49 @@ Alongside robotics, I also do **freelance web development** for local groups and
 
 ## Current Research
 
-Ongoing work in robotic autonomy, radiation-aware exploration and human-aware navigation.
+Two complementary platforms for embodied autonomy: **handling objects in human
+spaces** and **exploring hazardous environments with a return budget**.
 
 ### Robotics and autonomous systems
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/DavidBatty95/Geoff-Sim">Geoff-Sim</a></h3>
-      <p><strong>Humanoid autonomy around people</strong></p>
-      <a href="https://github.com/DavidBatty95/Geoff-Sim"><img src="assets/geoff-sim.gif" width="100%" alt="Recorded MuJoCo simulation of the Unitree G1 walking in a pedestrian plaza"></a>
-      <p>Unitree G1 research platform combining locomotion, simulated onboard sensing, online mapping and human-aware navigation in reproducible environments.</p>
-      <p><code>Unitree G1</code> <code>ROS 2</code> <code>MuJoCo</code></p>
-      <p><a href="https://github.com/DavidBatty95/Geoff-Sim">Explore Geoff-Sim →</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/DavidBatty95/Dougie-Sim">Dougie-Sim</a></h3>
-      <p><strong>Quadruped exploration under radiation constraints</strong></p>
-      <a href="https://github.com/DavidBatty95/Dougie-Sim"><img src="assets/dougie-sim.gif" width="100%" alt="Recorded torque-driven Unitree Go2 walking simulation in MuJoCo"></a>
-      <p>Unitree Go2 simulation connecting physical locomotion, radiation sensing, online Gaussian process mapping and dose-aware exploration with return-budget reasoning.</p>
-      <p><code>Unitree Go2</code> <code>Gaussian processes</code> <code>MuJoCo</code></p>
-      <p><a href="https://github.com/DavidBatty95/Dougie-Sim">Explore Dougie-Sim →</a></p>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/DavidBatty95/Geoff-Sim">
+  <img src="assets/geoff-showcase.svg" width="100%" alt="Geoff-Sim — humanoid locomanipulation. Illustrated G1 carrying a cube between pickup and destination tables, with onboard sensing and the observe, dock, carry and verify workflow.">
+</a>
 
-<sub>Recorded simulation previews from separate runs; project documentation contains the evaluation results. Geoff-Sim and Dougie-Sim are currently private repositories: source links require access. <a href="mailto:dwbatty@liverpool.ac.uk">Contact me about the projects.</a></sub>
+**From observing a scene to moving an object.** Geoff-Sim integrates RGB-D pickup,
+measured arm execution, payload-aware locomotion, online mapping and human-aware
+planning on the Unitree G1. Current research targets reliable task transitions,
+low-latency control and repeatable delivery. Attachment is an experimental magnetic
+fixture; reliable crowd delivery and contact-only grasping remain open.
+
+**[Explore Geoff-Sim →](https://github.com/DavidBatty95/Geoff-Sim)** ·
+[Recorded workflow](https://github.com/DavidBatty95/Geoff-Sim#recorded-demo-gallery) ·
+[Engineering progress](https://github.com/DavidBatty95/Geoff-Sim/blob/main/docs/PROJECT_STATUS.md)
+
+<a href="https://github.com/DavidBatty95/Dougie-Sim">
+  <img src="assets/dougie-showcase.svg" width="100%" alt="Dougie-Sim — radiation-aware quadruped exploration. Illustrated Go2, multi-level facility ramps, radiation source and a route linking exploration to a return reserve.">
+</a>
+
+**Learn the environment while accounting for the journey home.** Dougie-Sim
+connects physical Go2 locomotion, counting radiation measurements, online Gaussian
+process inference and dose-aware planning. Recent development missions reached a
+**2.4 m upper floor and returned home** within the declared exposure budget.
+These are results on one simulated layout; full coverage and ordinary stairs
+remain unqualified.
+
+**[Explore Dougie-Sim →](https://github.com/DavidBatty95/Dougie-Sim)** ·
+[Multi-level results](https://github.com/DavidBatty95/Dougie-Sim/blob/main/docs/DOUGIE_FULLHEIGHT_RESULTS.md) ·
+[Mapping and planning](https://github.com/DavidBatty95/Dougie-Sim/blob/main/docs/DOUGIE_RADIATION.md)
+
+#### From the actual experiments
+
+| Geoff · pickup and loaded motion | Dougie · multi-level exploration and return |
+| :---: | :---: |
+| [![Actual G1 pickup and lift recording, with the source attempt's incomplete outcome retained](assets/geoff-locomanipulation.gif)](https://github.com/DavidBatty95/Geoff-Sim#recorded-demo-gallery) | [![Accelerated replay of actual Go2 detector positions and height history from a full-height facility round trip](assets/dougie-multilevel.gif)](https://github.com/DavidBatty95/Dougie-Sim/blob/main/docs/DOUGIE_FULLHEIGHT_RESULTS.md) |
+| MuJoCo window recording, time-lapse. The source attempt later fell; this is not a complete-delivery clip. | Recorded XYZ detector trajectory, not video or a GP field. Seed 3 reached the upper level and returned; final exposure **1.01 / 5 µSv**. |
+
+<sub>The project cards are original animated schematics. The previews below them
+are separately labelled experimental evidence. <a href="assets/README.md#project-showcases">Media provenance and still images</a>.</sub>
 
 [↑ Back to top](#top)
 
