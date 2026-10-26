@@ -35,6 +35,8 @@ I build research software connecting **human movement, robotic perception and ph
 
 ## Virtual Engineering Centre Projects
 
+**Service: October 2025 – October 2026**
+
 <a href="https://github.com/DavidBatty95/Geoff-Sim">
   <img src="assets/geoff-showcase.svg" width="100%" alt="Geoff-Sim — sensor-driven humanoid locomanipulation: perceive, pick up, walk and deliver. Open the repository.">
 </a>
@@ -43,7 +45,13 @@ I build research software connecting **human movement, robotic perception and ph
   <img src="assets/geoff-vr-showcase.svg" width="100%" alt="Geoff-Sim-VR — Meta Quest hand and controller input, fixed-base G1 arm teleoperation and stereo MuJoCo viewing. Open the repository.">
 </a>
 
+<a href="https://github.com/DavidBatty95/pepper_assistant">
+  <img src="assets/pepper-showcase.svg" width="100%" alt="Pepper-Assistant — conversational robotics for public engagement at the Virtual Engineering Centre. Open the repository.">
+</a>
+
 ## PhD Research
+
+**PhD: September 2021 – April 2026**
 
 [![PhD research — Radiation-aware robotic exploration. Read the thesis.](assets/phd-research-banner.svg)](https://livrepository.liverpool.ac.uk/3199094/)
 
@@ -80,10 +88,6 @@ Freelance website development for a local Scout group in South Liverpool.
 <sub>Actual development-site screenshots, captured 7 October 2026.</sub>
 
 ## Other Projects
-
-<a href="https://github.com/DavidBatty95/pepper_assistant">
-  <img src="assets/pepper-showcase.svg" width="100%" alt="Pepper-Assistant — conversational robotics for public engagement at the Virtual Engineering Centre. Open the repository.">
-</a>
 
 <a href="https://github.com/DavidBatty95/SonyEmotiBitAnalysis">
   <img src="assets/sony-emotibit-research.svg" width="100%" alt="EmotiBit Immersion Measurement — previous postdoctoral research for Sony Europe and Japan. Open SonyEmotiBitAnalysis, a private repository requiring access.">
