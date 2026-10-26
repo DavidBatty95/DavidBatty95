@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Geoff-Sim-VR — Your reach. Two arms. One virtual workspace.</title>
+<desc id="desc">Illustrated Meta Quest headset and tracked controllers linked to two fixed-base G1 robot arms at a virtual workbench. Track and clutch, map wrist pose, move G1 arms, and stream stereo. Original schematic, not a recording from a headset or physical robot.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#091725"/><stop offset="1" stop-color="#242b49"/></linearGradient>
+  <linearGradient id="edge"><stop stop-color="#bea7ff"/><stop offset="1" stop-color="#1b3b50"/></linearGradient>
+  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#37465f" stroke-width=".6"/></pattern>
+</defs>
+<style>
+  text {font-family:Segoe UI,Helvetica,Arial,sans-serif}
+  .body {fill:#bdcfdd;font-size:21px} .step {fill:#eaf3fa;font-size:19px;font-weight:650}
+  .number {fill:#bea7ff;font-size:16px;font-weight:700} .label {fill:#a9bfce;font-size:12px;letter-spacing:1px}
+  .flow {stroke-dasharray:7 9;animation:flow 4s linear infinite}
+  .pulse {animation:pulse 4s ease-in-out infinite}
+  @keyframes flow {to {stroke-dashoffset:-64}}
+  @keyframes pulse {50% {opacity:.45}}
+  @media(prefers-reduced-motion:reduce) {* {animation:none!important}}
+</style>
+<rect width="1200" height="420" rx="20" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="418" rx="19" fill="none" stroke="#39465e"/>
+<path d="M24 1H1176" stroke="url(#edge)" stroke-width="3"/>
+<rect x="644" y="20" width="534" height="282" fill="url(#grid)" opacity=".32"/>
+<text x="46" y="48" fill="#bea7ff" font-size="13" font-weight="750" letter-spacing="2.3">03 / IMMERSIVE TELEOPERATION</text>
+<text x="42" y="124" fill="#f3f8fc" font-size="61" font-weight="800" letter-spacing="-2">Geoff-Sim-VR</text>
+<text x="46" y="160" fill="#bea7ff" font-size="23" font-weight="600">Your reach. Two arms. One virtual workspace.</text>
+<text x="46" y="192" class="body">Quest controllers or hands drive G1 arms.</text>
+<text x="46" y="222" class="body">Grip or pinch to follow. Release to hold.</text>
+<text x="46" y="252" class="body">Stereo MuJoCo views close the visual loop.</text>
+<g stroke-linecap="round" stroke-linejoin="round">
+  <rect x="830" y="55" width="188" height="76" rx="27" fill="#d2e2ec" stroke="#90aac0" stroke-width="2"/>
+  <rect x="846" y="69" width="156" height="44" rx="17" fill="#101f32"/>
+  <circle cx="886" cy="91" r="11" fill="#70e1dc"/>
+  <circle cx="964" cy="91" r="11" fill="#ffbc80"/>
+  <path d="M830 88Q798 69 813 48M1018 88Q1051 69 1036 48" fill="none" stroke="#91a8bc" stroke-width="7"/>
+  <g transform="translate(724 109) rotate(-18)">
+    <ellipse rx="21" ry="28" fill="none" stroke="#70e1dc" stroke-width="6"/>
+    <rect x="-10" y="12" width="20" height="42" rx="9" fill="#c7dbe7"/>
+  </g>
+  <g transform="translate(1119 109) rotate(18)">
+    <ellipse rx="21" ry="28" fill="none" stroke="#ffbc80" stroke-width="6"/>
+    <rect x="-10" y="12" width="20" height="42" rx="9" fill="#c7dbe7"/>
+  </g>
+  <path class="flow" d="M754 141Q793 130 833 161M1091 141Q1052 130 1012 161" fill="none" stroke="#bea7ff" stroke-width="2"/>
+  <path d="M777 240L795 201L835 166L869 221M1066 240L1048 201L1008 166L974 221" fill="none" stroke="#0a1424" stroke-width="23"/>
+  <path d="M777 240L795 201L835 166L869 221M1066 240L1048 201L1008 166L974 221" fill="none" stroke="#c3d7e5" stroke-width="15"/>
+  <circle cx="835" cy="166" r="12" fill="#70e1dc"/>
+  <circle cx="1008" cy="166" r="12" fill="#ffbc80"/>
+  <rect x="853" y="215" width="33" height="23" rx="6" fill="#70e1dc"/>
+  <rect x="958" y="215" width="33" height="23" rx="6" fill="#ffbc80"/>
+  <path d="M755 244H1090M777 250V279M1066 250V279" stroke="#6d809a" stroke-width="9"/>
+  <rect x="902" y="217" width="35" height="24" rx="3" fill="#bea7ff" opacity=".8"/>
+  <path class="flow" d="M918 195V145" stroke="#bea7ff" stroke-width="2"/>
+</g>
+<text x="830" y="39" class="label">STEREO VIEW + ARM HUD</text>
+<text x="741" y="297" class="label">ILLUSTRATED FIXED-BASE WORKSPACE</text>
+<path d="M46 318H1154" stroke="#39465e"/>
+<g transform="translate(46 354)"><text class="number">01</text><text x="34" class="step">Track + clutch</text></g>
+<g transform="translate(330 354)"><text class="number">02</text><text x="34" class="step">Map wrist pose</text></g>
+<g transform="translate(614 354)"><text class="number">03</text><text x="34" class="step">Move G1 arms</text></g>
+<g transform="translate(898 354)"><text class="number">04</text><text x="34" class="step">Stream stereo</text></g>
+<text x="46" y="391" fill="#809cad" font-size="13">META QUEST · UNITREE G1 · MUJOCO · WEBXR · DOCKER</text>
+<text x="1154" y="391" text-anchor="end" fill="#bea7ff" font-size="14" font-weight="700">EXPLORE THE PROJECT ↗</text>
+</svg>

@@ -60,6 +60,36 @@ python3 scripts/build_project_showcase.py --geoff /path/to/Geoff-Sim --dougie /p
 python3 scripts/check_profile.py
 ```
 
+## Geoff-Sim-VR showcase
+
+`geoff-vr-showcase.svg` is original schematic artwork added for the
+[Geoff-Sim-VR](https://github.com/DavidBatty95/Geoff-Sim-VR) profile tile. It matches
+the Geoff/Dougie card dimensions and midnight palette, with violet accents,
+accessible SVG descriptions and reduced-motion support. The headset, controllers
+and robot arms illustrate the tracking/control/stereo pipeline; they are not
+recorded headset footage or evidence of physical robot operation. Project scope
+was checked against repository revision `9069b1f84d42fd4492ac3971d9ba5a7d85e4d70a`.
+The SVG is maintained directly; the earlier two-card generator does not generate it.
+
+## Tile-led profile directory
+
+The profile now separates Current Research (Skele-Tracker), Virtual Engineering
+Centre Projects (Geoff-Sim and Geoff-Sim-VR), and PhD Research Code. The three
+research-code cards link independently to the Python abstraction repository,
+the ROS 1 repository and Dougie-Sim for ROS 2.
+
+- `skele-tracker-showcase.svg`: original movement/model schematic, informed by
+  Skele-Tracker revision `c6ce204f8fcb23f6f84b9641d1e1000174d0ff00`. It contains no
+  participant data or clinical-validity claim.
+- `research-python.svg`, `research-ros1.svg`, `research-dougie-ros2.svg`: original
+  compact research-code cards, with separate repository destinations.
+- `pepper-showcase.svg`: original conversational-robot illustration.
+- `nav-vec-projects.svg`: navigation to the Virtual Engineering Centre section.
+
+These SVGs are maintained directly. The older experiment GIFs and their source
+manifests remain available here; their detailed captions now live with the
+project documentation rather than the tile-led profile.
+
 ## EmotiBit postdoctoral research card
 
 `sony-emotibit-research.svg` is original schematic artwork for the profile.

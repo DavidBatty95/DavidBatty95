@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="310" viewBox="0 0 600 310" role="img" aria-labelledby="title desc">
+<title id="title">ROS 1 research code — Radiation-aware exploration</title><desc id="desc">Open OccMapAbstractionROS1Pkg for simulation testing of radiation-aware abstraction and planning. The route and hazard are schematic.</desc>
+<rect width="600" height="310" rx="18" fill="#102536"/><rect x="1" y="1" width="598" height="308" rx="17" fill="none" stroke="#80bfff" stroke-width="2"/>
+<g font-family="Segoe UI,Arial,sans-serif"><text x="30" y="42" fill="#80bfff" font-size="18" letter-spacing="2">PHD RESEARCH CODE / ROS 1</text><text x="30" y="96" fill="#f3f8fc" font-size="38" font-weight="700">Radiation-aware</text><text x="30" y="135" fill="#bdcfdd" font-size="22">Explore hazardous environments</text><text x="30" y="165" fill="#bdcfdd" font-size="22">with risk-aware route planning.</text></g>
+<path d="M40 236H111Q138 236 141 212T180 194H300" fill="none" stroke="#80bfff" stroke-width="4" stroke-linecap="round"/><circle cx="216" cy="231" r="16" fill="#ffbc80" opacity=".85"/><circle cx="216" cy="231" r="26" fill="none" stroke="#ffbc80" stroke-dasharray="4 5"/>
+<path d="M30 264H570" stroke="#31556b"/><text x="30" y="291" font-family="Segoe UI,Arial,sans-serif" fill="#80bfff" font-size="18" font-weight="700">OPEN ROS 1 REPOSITORY ↗</text>
+</svg>
