@@ -35,7 +35,7 @@ I build research software connecting **human movement, robotic perception and ph
 
 ## Virtual Engineering Centre Projects
 
-**Service: October 2025 – October 2026**
+**From October 2025 – October 2026**
 
 <a href="https://github.com/DavidBatty95/Geoff-Sim">
   <img src="assets/geoff-showcase.svg" width="100%" alt="Geoff-Sim — sensor-driven humanoid locomanipulation: perceive, pick up, walk and deliver. Open the repository.">
