@@ -73,7 +73,8 @@ The SVG is maintained directly; the earlier two-card generator does not generate
 
 ## Tile-led profile directory
 
-The profile now separates Current Research (Skele-Tracker), Virtual Engineering
+The profile now separates Current Research (Skele-Tracker and a full-width
+Dougie-Sim showcase), Virtual Engineering
 Centre Projects (Geoff-Sim and Geoff-Sim-VR), and PhD Research Code. The three
 research-code cards link independently to the Python abstraction repository,
 the ROS 1 repository and Dougie-Sim for ROS 2.

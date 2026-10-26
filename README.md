@@ -29,6 +29,10 @@ I build research software connecting **human movement, robotic perception and ph
   <img src="assets/skele-tracker-showcase.svg" width="100%" alt="Skele-Tracker — captured movement, muscle-driven simulation and interpretable biomechanics research. Open the repository.">
 </a>
 
+<a href="https://github.com/DavidBatty95/Dougie-Sim">
+  <img src="assets/dougie-showcase.svg" width="100%" alt="Dougie-Sim — radiation-aware Go2 exploration, online Gaussian process mapping and return-budget planning. Open the repository.">
+</a>
+
 ## Virtual Engineering Centre Projects
 
 <a href="https://github.com/DavidBatty95/Geoff-Sim">
