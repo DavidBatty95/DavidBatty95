@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1424">
+  <meta name="description" content="Dr David Batty — AI & Cyberphysical Systems Engineer and robotics researcher. Human movement, robotic perception and physical action.">
+  <title>Dr David Batty · Robotics & Cyberphysical Systems</title>
+  <link rel="icon" href="assets/robot-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <canvas id="robot-world" aria-hidden="true"></canvas>
+  <div class="world-shade" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="identity" href="#top" aria-label="David Batty, back to top">
+      <img src="assets/robot-mark.svg" width="42" height="42" alt="">
+      <span>DAVID BATTY<small>ROBOTICS / RESEARCH / ENGINEERING</small></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#work">Projects</a><a href="#research">Research</a><a href="#toolkit">Toolkit</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="header-github" href="https://github.com/DavidBatty95">GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> RESEARCHER / ENGINEER / BUILDER</p>
+        <h1 id="hero-title"><span class="honorific">Dr</span> David<br><span class="name-accent">Batty<span class="title-dot">.</span></span></h1>
+        <p class="qualifications">PhD · MEng · MIET</p>
+        <p class="hero-role">AI &amp; Cyberphysical Systems Engineer<br>Robotics Researcher</p>
+        <p class="hero-description">I build research software connecting <strong>human movement, robotic perception and physical action.</strong> From radiation-aware exploration to humanoid autonomy.</p>
+        <div class="actions"><a class="button primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a><a class="button secondary" href="assets/David_Batty_Engineering_CV.pdf">Engineering CV <span class="file-type">PDF ↗</span></a></div>
+        <div class="hero-links"><a href="https://uk.linkedin.com/in/david-batty">LinkedIn ↗</a><a href="https://orcid.org/0009-0003-5375-421X">ORCID ↗</a><a href="mailto:dwbatty@liverpool.ac.uk">Email ↗</a></div>
+      </div>
+
+      <div class="mission" aria-label="Illustrative autonomous robot navigation">
+        <div class="mission-top"><span><span class="status-dot"></span> AUTONOMY SANDBOX</span><span class="mission-id">DB / 01</span></div>
+        <button class="mission-field" id="set-goal" type="button" aria-label="Choose a new robot destination. Click a location, or press Enter for a new destination.">
+          <span class="map-corner top-left" aria-hidden="true"></span><span class="map-corner bottom-right" aria-hidden="true"></span>
+          <span class="map-label">LOCAL OCCUPANCY MAP <span aria-hidden="true">/</span> A* PLANNER</span>
+          <span class="map-hint">Click the map to set a destination <span aria-hidden="true">⌖</span></span>
+        </button>
+        <div class="mission-bottom">
+          <div><span class="telemetry-label">PLANNER STATE</span><span id="planner-state">INITIALISING</span></div>
+          <div><span class="telemetry-label">WAYPOINTS REACHED</span><span id="waypoint-count">000</span></div>
+          <button id="motion-toggle" class="motion-toggle" type="button" aria-pressed="false">Pause motion <span aria-hidden="true">Ⅱ</span></button>
+        </div>
+        <p class="simulation-note">A little robot, finding its own way. Browser simulation · illustrative, not robot telemetry.</p>
+        <p class="sr-only" id="map-feedback" role="status"></p>
+      </div>
+    </section>
+
+    <div class="discipline-strip"><div class="shell"><span>PERCEIVE <i>→</i> PLAN <i>→</i> ACT</span><p>From research ideas to working demonstrations.</p><span class="strip-coordinate">53.4° N / UNITED KINGDOM</span></div></div>
+
+    <section class="section shell" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / RESEARCH IN MOTION</p><h2 id="work-title">Building across the<br>physical &amp; digital.</h2></div><p>Research tools, robotic systems and simulations. Explore the repositories for methods, demonstrations and validation results.</p></div>
+      <div class="group-heading"><h3>Current research</h3><span>BIOMECHANICS / AUTONOMY</span></div>
+      <div class="project-grid">
+        <article class="project-card teal">
+          <a class="project-visual" href="https://github.com/DavidBatty95/Skele-Tracker" aria-label="Explore Skele-Tracker on GitHub"><img src="assets/skele-tracker-showcase.svg" width="1280" height="480" alt="Skele-Tracker movement capture and muscle-driven modelling schematic" loading="lazy"></a>
+          <div class="project-content"><div class="project-meta"><span>01 / HUMAN MOVEMENT</span><span class="project-indicator">RESEARCH</span></div><h4><a href="https://github.com/DavidBatty95/Skele-Tracker">Skele-Tracker <span aria-hidden="true">↗</span></a></h4><p>Connecting captured movement with muscle-driven simulation for interpretable biomechanics research.</p><ul class="tags" aria-label="Topics"><li>Biomechanics</li><li>Motion capture</li><li>Simulation</li></ul></div>
+        </article>
+        <article class="project-card blue">
+          <a class="project-visual" href="https://github.com/DavidBatty95/Dougie-Sim" aria-label="Explore Dougie-Sim on GitHub"><img src="assets/dougie-showcase.svg" width="1280" height="480" alt="Dougie quadruped exploring a multi-level facility with a planned return route" loading="lazy"></a>
+          <div class="project-content"><div class="project-meta"><span>02 / RADIATION-AWARE EXPLORATION</span><span class="project-indicator">RESEARCH</span></div><h4><a href="https://github.com/DavidBatty95/Dougie-Sim">Dougie-Sim <span aria-hidden="true">↗</span></a></h4><p>Radiation-aware Go2 exploration, online Gaussian process mapping and planning with a budget to return.</p><ul class="tags" aria-label="Topics"><li>ROS 2</li><li>Gaussian processes</li><li>Navigation</li></ul></div>
+        </article>
+      </div>
+
+      <div class="group-heading"><h3>Virtual Engineering Centre</h3><span>OCT 2025 — OCT 2026</span></div>
+      <div class="project-grid three-up">
+        <article class="project-card teal"><a class="project-visual" href="https://github.com/DavidBatty95/Geoff-Sim" aria-label="Explore Geoff-Sim on GitHub"><img src="assets/geoff-showcase.svg" width="1280" height="480" alt="Humanoid locomanipulation schematic: observe, dock, carry and verify" loading="lazy"></a><div class="project-content"><div class="project-meta"><span>03 / HUMANOID AUTONOMY</span></div><h4><a href="https://github.com/DavidBatty95/Geoff-Sim">Geoff-Sim <span aria-hidden="true">↗</span></a></h4><p>Sensor-driven humanoid locomanipulation: perceive, pick up, walk and deliver.</p><ul class="tags" aria-label="Topics"><li>Unitree G1</li><li>MuJoCo</li><li>ROS 2</li></ul></div></article>
+        <article class="project-card violet"><a class="project-visual" href="https://github.com/DavidBatty95/Geoff-Sim-VR" aria-label="Explore Geoff-Sim-VR on GitHub"><img src="assets/geoff-vr-showcase.svg" width="1280" height="480" alt="VR headset and controller input linked to humanoid robot arms" loading="lazy"></a><div class="project-content"><div class="project-meta"><span>04 / IMMERSIVE CONTROL</span></div><h4><a href="https://github.com/DavidBatty95/Geoff-Sim-VR">Geoff-Sim-VR <span aria-hidden="true">↗</span></a></h4><p>Meta Quest hand and controller input, fixed-base G1 arm teleoperation and stereo MuJoCo viewing.</p><ul class="tags" aria-label="Topics"><li>Meta Quest</li><li>Teleoperation</li><li>MuJoCo</li></ul></div></article>
+        <article class="project-card amber"><a class="project-visual" href="https://github.com/DavidBatty95/pepper_assistant" aria-label="Explore Pepper-Assistant on GitHub"><img src="assets/pepper-showcase.svg" width="1280" height="480" alt="Pepper conversational robot schematic" loading="lazy"></a><div class="project-content"><div class="project-meta"><span>05 / HUMAN–ROBOT INTERACTION</span></div><h4><a href="https://github.com/DavidBatty95/pepper_assistant">Pepper-Assistant <span aria-hidden="true">↗</span></a></h4><p>Conversational robotics for public engagement at the Virtual Engineering Centre.</p><ul class="tags" aria-label="Topics"><li>Conversation</li><li>Public engagement</li></ul></div></article>
+      </div>
+      <p class="asset-note">Project artwork shows illustrative schematics. Recorded demonstrations and validation details are available in the linked repositories.</p>
+    </section>
+
+    <section class="research-band" id="research" aria-labelledby="research-title"><div class="shell section">
+      <div class="section-heading"><div><p class="eyebrow">02 / THE RESEARCH BEHIND THE ROBOTS</p><h2 id="research-title">Exploring the unknown.<br>Accounting for the risk.</h2></div><p>PhD research · University of Liverpool<br>September 2021 — April 2026</p></div>
+      <div class="thesis-panel"><div><span class="eyebrow">DOCTORAL THESIS / 2026</span><h3>Radiation Aware Navigation and Planning for Mobile Robot Exploration of Unknown Hazardous Nuclear Environments</h3><p>Robotic exploration, occupancy-map abstraction and radiation-aware mission planning.</p><a class="text-link" href="https://livrepository.liverpool.ac.uk/3199094/">Read the thesis <span aria-hidden="true">↗</span></a></div><div class="thesis-mark" aria-hidden="true"><span>⌖</span><p>EXPLORE<br>MAP<br>RETURN</p><small>10.17638/03199094</small></div></div>
+      <div class="research-code"><a href="https://github.com/DavidBatty95/OccMapAbstraction-Python-Based"><span>PYTHON</span><strong>Occupancy-map abstraction ↗</strong></a><a href="https://github.com/DavidBatty95/OccMapAbstractionROS1Pkg"><span>ROS 1</span><strong>Radiation-aware exploration ↗</strong></a><a href="https://github.com/DavidBatty95/Dougie-Sim"><span>ROS 2</span><strong>Go2 simulation &amp; planning ↗</strong></a></div>
+      <div class="group-heading" id="publications"><h3>Selected publications</h3><a href="https://orcid.org/0009-0003-5375-421X">ORCID ↗</a></div>
+      <a class="publication" href="https://doi.org/10.1007/978-3-031-72059-8_26"><span class="publication-year">2024<small>TAROS</small></span><div><h4>Real-World Testing of Ultrasonic Beacons for Mobile Robot Radiation Emulation</h4><p>Batty, West, Caliskanelli &amp; Paoletti</p></div><span class="publication-arrow" aria-hidden="true">↗</span></a>
+      <a class="publication" href="https://doi.org/10.1007/978-3-031-43360-3_7"><span class="publication-year">2023<small>TAROS</small></span><div><h4>Occupancy Map Abstraction for Higher Level Mission Planning of Autonomous Robotic Exploration in Hazardous Nuclear Environments</h4><p>Batty, Manes, West, Patel, Caliskanelli &amp; Paoletti</p></div><span class="publication-arrow" aria-hidden="true">↗</span></a>
+    </div></section>
+
+    <section class="section shell" id="toolkit" aria-labelledby="toolkit-title"><div class="section-heading"><div><p class="eyebrow">03 / SYSTEMS THINKING, PRACTICAL TOOLS</p><h2 id="toolkit-title">From sensing<br>to physical action.</h2></div><p>Software and engineering across the whole loop: model the system, understand the environment, then make something move.</p></div><div class="capabilities"><article><span class="capability-number">[01]</span><h3>Robotic autonomy</h3><p>Navigation, SLAM, mission planning and radiation-aware exploration in unknown environments.</p><ul class="tags"><li>ROS 1 · Noetic</li><li>ROS 2 · Humble</li><li>RViz</li></ul></article><article><span class="capability-number">[02]</span><h3>Simulation &amp; control</h3><p>Humanoid and quadruped simulation, locomanipulation and immersive teleoperation.</p><ul class="tags"><li>MuJoCo</li><li>Gazebo</li><li>Python</li></ul></article><article><span class="capability-number">[03]</span><h3>Movement &amp; inference</h3><p>Captured human movement, anatomical modelling, sensing and interpretable research software.</p><ul class="tags"><li>Gaussian processes</li><li>pandas</li><li>Matplotlib</li></ul></article></div><div class="toolkit-footer"><span>THE EVERYDAY TOOLKIT</span><p>Python <i>/</i> Docker <i>/</i> Linux <i>/</i> Git</p></div>
+      <div class="other-work"><span class="eyebrow">ALSO ON THE WORKBENCH</span><div><h3>EmotiBit immersion measurement</h3><p>Previous postdoctoral research for Sony Europe and Japan, exploring physiological measurement and immersion.</p><a class="text-link" href="https://github.com/DavidBatty95/SonyEmotiBitAnalysis">Research repository <span class="muted">(access required)</span> ↗</a></div></div>
+    </section>
+
+    <section class="contact-section shell" id="contact" aria-labelledby="contact-title"><p class="eyebrow"><span class="status-dot"></span> 04 / MAKE THE CONNECTION</p><div class="contact-layout"><div><h2 id="contact-title">Have a robotics<br>problem in mind<span class="title-dot">?</span></h2><p>Research collaboration, robotic systems or software that connects the digital and physical. Let’s talk.</p><a class="email-link" href="mailto:dwbatty@liverpool.ac.uk">dwbatty@liverpool.ac.uk <span aria-hidden="true">↗</span></a></div><div class="contact-links"><a href="https://github.com/DavidBatty95"><span>GitHub</span>DavidBatty95 ↗</a><a href="https://uk.linkedin.com/in/david-batty"><span>LinkedIn</span>David Batty ↗</a><a href="https://orcid.org/0009-0003-5375-421X"><span>ORCID</span>0009-0003-5375-421X ↗</a><a href="assets/David_Batty_Engineering_CV.pdf"><span>Engineering CV</span>Download PDF ↗</a></div></div></section>
+  </main>
+  <footer class="shell site-footer"><span>Dr David Batty <span class="muted">/ Robotics &amp; research software</span></span><a href="#top">Back to base ↑</a></footer>
+  <noscript><p class="noscript-note">The portfolio is fully readable without JavaScript. Enable JavaScript to see the background robot navigate.</p></noscript>
+</body>
+</html>
